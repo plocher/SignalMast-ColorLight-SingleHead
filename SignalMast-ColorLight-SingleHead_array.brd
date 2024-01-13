@@ -39,9 +39,9 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="47" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="36" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
@@ -168,18 +168,10 @@
 <wire x1="88.9" y1="92.075" x2="88.9" y2="52.324" width="0" layer="20"/>
 <wire x1="88.9" y1="47.879" x2="88.9" y2="8.128" width="0" layer="20"/>
 <wire x1="88.9" y1="101.6" x2="88.9" y2="-1.905" width="0.254" layer="46"/>
-<text x="8.255" y="12.065" size="4.318" layer="51" font="vector" rot="R90">Single CL Signal Mast</text>
-<text x="97.79" y="19.685" size="2.54" layer="51" font="vector" rot="R90">John Plocher - SPCoast.com</text>
-<text x="5.08" y="90.17" size="2.54" layer="52" font="vector" rot="MR270">Made in the PCR, Coast Division, NMRA</text>
-<text x="10.16" y="76.835" size="2.54" layer="52" font="vector" rot="MR270">Model Railroading is Fun!</text>
-<wire x1="90.17" y1="86.36" x2="90.17" y2="13.97" width="1.016" layer="52"/>
-<wire x1="97.79" y1="86.36" x2="97.79" y2="13.97" width="1.016" layer="52"/>
-<wire x1="87.63" y1="84.455" x2="100.33" y2="83.82" width="2.54" layer="52"/>
-<wire x1="87.63" y1="71.755" x2="100.33" y2="71.12" width="2.54" layer="52"/>
-<wire x1="87.63" y1="59.055" x2="100.33" y2="58.42" width="2.54" layer="52"/>
-<wire x1="87.63" y1="46.355" x2="100.33" y2="45.72" width="2.54" layer="52"/>
-<wire x1="87.63" y1="33.655" x2="100.33" y2="33.02" width="2.54" layer="52"/>
-<wire x1="87.63" y1="20.955" x2="100.33" y2="20.32" width="2.54" layer="52"/>
+<text x="8.255" y="12.065" size="4.318" layer="21" font="vector" rot="R90">Single CL Signal Mast</text>
+<text x="97.79" y="19.685" size="2.54" layer="21" font="vector" rot="R90">John Plocher - SPCoast.com</text>
+<text x="6.35" y="92.71" size="2.54" layer="22" font="vector" rot="MR270">Made in the PCR, Coast Division, NMRA</text>
+<text x="95.885" y="62.23" size="2.54" layer="22" font="vector" rot="MR270">Model Railroading is Fun!</text>
 <text x="13.97" y="104.14" size="2.54" layer="46" font="vector" rot="R90">V-SCORE</text>
 <text x="26.67" y="104.14" size="2.54" layer="46" font="vector" rot="R90">V-SCORE</text>
 <text x="39.37" y="104.14" size="2.54" layer="46" font="vector" rot="R90">V-SCORE</text>
@@ -209,7 +201,7 @@
 <wire x1="-2.4765" y1="47.879" x2="101.0285" y2="47.879" width="0.254" layer="46"/>
 <text x="-3.81" y="54.61" size="2.54" layer="46" font="vector" rot="R180">V-SCORE</text>
 <text x="-3.81" y="48.26" size="2.54" layer="46" font="vector" rot="R180">V-SCORE</text>
-<text x="97.79" y="81.915" size="2.54" layer="51" font="vector" rot="R90">v1.1</text>
+<text x="95.25" y="88.265" size="1.6764" layer="21" font="vector" rot="R90">v1.1</text>
 <wire x1="22.225" y1="36.397" x2="20.4724" y2="34.332" width="0" layer="20" curve="-90"/>
 <wire x1="22.225" y1="43.942" x2="22.225" y2="36.397" width="0" layer="20"/>
 <wire x1="16.002" y1="43.942" x2="16.002" y2="36.524" width="0" layer="20"/>
@@ -217,11 +209,9 @@
 <wire x1="17.9324" y1="34.332" x2="17.9324" y2="8.128" width="0" layer="20"/>
 <wire x1="20.4724" y1="34.332" x2="20.4724" y2="8.128" width="0" layer="20"/>
 <wire x1="12.7" y1="8.128" x2="17.9324" y2="8.128" width="0" layer="20"/>
-<text x="15.621" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="16.002" y1="43.942" x2="18.034" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="22.225" y1="43.942" x2="20.32" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="12.7" y1="-0.127" x2="25.527" y2="47.752" layer="52"/>
-<rectangle x1="12.7" y1="-0.508" x2="25.527" y2="34.417" layer="51"/>
+<rectangle x1="12.7" y1="-0.127" x2="25.527" y2="47.752" layer="22"/>
 <wire x1="20.32" y1="47.879" x2="20.32" y2="45.72" width="0" layer="20"/>
 <wire x1="18.034" y1="45.72" x2="18.034" y2="47.879" width="0" layer="20"/>
 <wire x1="20.4724" y1="8.128" x2="25.5524" y2="8.128" width="0" layer="20"/>
@@ -234,11 +224,9 @@
 <wire x1="30.6324" y1="34.332" x2="30.6324" y2="8.128" width="0" layer="20"/>
 <wire x1="33.1724" y1="34.332" x2="33.1724" y2="8.128" width="0" layer="20"/>
 <wire x1="25.4" y1="8.128" x2="30.6324" y2="8.128" width="0" layer="20"/>
-<text x="28.321" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="28.702" y1="43.942" x2="30.734" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="34.925" y1="43.942" x2="33.02" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="25.4" y1="-0.127" x2="38.227" y2="47.752" layer="52"/>
-<rectangle x1="25.4" y1="-0.508" x2="38.227" y2="34.417" layer="51"/>
+<rectangle x1="25.4" y1="-0.127" x2="38.227" y2="47.752" layer="22"/>
 <wire x1="33.02" y1="47.879" x2="33.02" y2="45.72" width="0" layer="20"/>
 <wire x1="30.734" y1="45.72" x2="30.734" y2="47.879" width="0" layer="20"/>
 <wire x1="33.1724" y1="8.128" x2="38.2524" y2="8.128" width="0" layer="20"/>
@@ -251,11 +239,9 @@
 <wire x1="43.3324" y1="34.332" x2="43.3324" y2="8.128" width="0" layer="20"/>
 <wire x1="45.8724" y1="34.332" x2="45.8724" y2="8.128" width="0" layer="20"/>
 <wire x1="38.1" y1="8.128" x2="43.3324" y2="8.128" width="0" layer="20"/>
-<text x="41.021" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="41.402" y1="43.942" x2="43.434" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="47.625" y1="43.942" x2="45.72" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="38.1" y1="-0.127" x2="50.927" y2="47.752" layer="52"/>
-<rectangle x1="38.1" y1="-0.508" x2="50.927" y2="34.417" layer="51"/>
+<rectangle x1="38.1" y1="-0.127" x2="50.927" y2="47.752" layer="22"/>
 <wire x1="45.72" y1="47.879" x2="45.72" y2="45.72" width="0" layer="20"/>
 <wire x1="43.434" y1="45.72" x2="43.434" y2="47.879" width="0" layer="20"/>
 <wire x1="45.8724" y1="8.128" x2="50.9524" y2="8.128" width="0" layer="20"/>
@@ -268,11 +254,9 @@
 <wire x1="56.0324" y1="34.332" x2="56.0324" y2="8.128" width="0" layer="20"/>
 <wire x1="58.5724" y1="34.332" x2="58.5724" y2="8.128" width="0" layer="20"/>
 <wire x1="50.8" y1="8.128" x2="56.0324" y2="8.128" width="0" layer="20"/>
-<text x="53.721" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="54.102" y1="43.942" x2="56.134" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="60.325" y1="43.942" x2="58.42" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="50.8" y1="-0.127" x2="63.627" y2="47.752" layer="52"/>
-<rectangle x1="50.8" y1="-0.508" x2="63.627" y2="34.417" layer="51"/>
+<rectangle x1="50.8" y1="-0.127" x2="63.627" y2="47.752" layer="22"/>
 <wire x1="58.42" y1="47.879" x2="58.42" y2="45.72" width="0" layer="20"/>
 <wire x1="56.134" y1="45.72" x2="56.134" y2="47.879" width="0" layer="20"/>
 <wire x1="58.5724" y1="8.128" x2="63.6524" y2="8.128" width="0" layer="20"/>
@@ -285,11 +269,9 @@
 <wire x1="68.7324" y1="34.332" x2="68.7324" y2="8.128" width="0" layer="20"/>
 <wire x1="71.2724" y1="34.332" x2="71.2724" y2="8.128" width="0" layer="20"/>
 <wire x1="63.5" y1="8.128" x2="68.7324" y2="8.128" width="0" layer="20"/>
-<text x="66.421" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="66.802" y1="43.942" x2="68.834" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="73.025" y1="43.942" x2="71.12" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="63.5" y1="-0.127" x2="76.327" y2="47.752" layer="52"/>
-<rectangle x1="63.5" y1="-0.508" x2="76.327" y2="34.417" layer="51"/>
+<rectangle x1="63.5" y1="-0.127" x2="76.327" y2="47.752" layer="22"/>
 <wire x1="71.12" y1="47.879" x2="71.12" y2="45.72" width="0" layer="20"/>
 <wire x1="68.834" y1="45.72" x2="68.834" y2="47.879" width="0" layer="20"/>
 <wire x1="71.2724" y1="8.128" x2="76.3524" y2="8.128" width="0" layer="20"/>
@@ -302,11 +284,9 @@
 <wire x1="81.4324" y1="34.332" x2="81.4324" y2="8.128" width="0" layer="20"/>
 <wire x1="83.9724" y1="34.332" x2="83.9724" y2="8.128" width="0" layer="20"/>
 <wire x1="76.2" y1="8.128" x2="81.4324" y2="8.128" width="0" layer="20"/>
-<text x="79.121" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
 <wire x1="79.502" y1="43.942" x2="81.534" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="85.725" y1="43.942" x2="83.82" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="76.2" y1="-0.127" x2="89.027" y2="47.752" layer="52"/>
-<rectangle x1="76.2" y1="-0.508" x2="89.027" y2="34.417" layer="51"/>
+<rectangle x1="76.2" y1="-0.127" x2="89.027" y2="47.752" layer="22"/>
 <wire x1="83.82" y1="47.879" x2="83.82" y2="45.72" width="0" layer="20"/>
 <wire x1="81.534" y1="45.72" x2="81.534" y2="47.879" width="0" layer="20"/>
 <wire x1="83.9724" y1="8.128" x2="88.9" y2="8.128" width="0" layer="20"/>
@@ -319,11 +299,9 @@
 <wire x1="20.4216" y1="65.871" x2="20.4216" y2="92.075" width="0" layer="20"/>
 <wire x1="17.8816" y1="65.871" x2="17.8816" y2="92.075" width="0" layer="20"/>
 <wire x1="25.654" y1="92.075" x2="20.4216" y2="92.075" width="0" layer="20"/>
-<text x="22.733" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="22.352" y1="56.261" x2="20.32" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="16.129" y1="56.261" x2="18.034" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="12.827" y1="52.451" x2="25.654" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="12.7" y1="66.04" x2="25.527" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="12.827" y1="52.451" x2="25.654" y2="100.33" layer="22" rot="R180"/>
 <wire x1="18.034" y1="52.324" x2="18.034" y2="54.483" width="0" layer="20"/>
 <wire x1="20.32" y1="54.483" x2="20.32" y2="52.324" width="0" layer="20"/>
 <wire x1="17.8816" y1="92.075" x2="12.7" y2="92.075" width="0" layer="20"/>
@@ -336,11 +314,9 @@
 <wire x1="32.9946" y1="65.871" x2="32.9946" y2="92.075" width="0" layer="20"/>
 <wire x1="30.4546" y1="65.871" x2="30.4546" y2="92.075" width="0" layer="20"/>
 <wire x1="38.227" y1="92.075" x2="32.9946" y2="92.075" width="0" layer="20"/>
-<text x="35.306" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="34.925" y1="56.261" x2="32.893" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="28.702" y1="56.261" x2="30.607" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="25.4" y1="52.451" x2="38.227" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="25.273" y1="66.04" x2="38.1" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="25.4" y1="52.451" x2="38.227" y2="100.33" layer="22" rot="R180"/>
 <wire x1="30.607" y1="52.324" x2="30.607" y2="54.483" width="0" layer="20"/>
 <wire x1="32.893" y1="54.483" x2="32.893" y2="52.324" width="0" layer="20"/>
 <wire x1="30.4546" y1="92.075" x2="25.3746" y2="92.075" width="0" layer="20"/>
@@ -353,11 +329,9 @@
 <wire x1="45.6946" y1="65.871" x2="45.6946" y2="92.075" width="0" layer="20"/>
 <wire x1="43.1546" y1="65.871" x2="43.1546" y2="92.075" width="0" layer="20"/>
 <wire x1="50.927" y1="92.075" x2="45.6946" y2="92.075" width="0" layer="20"/>
-<text x="48.006" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="47.625" y1="56.261" x2="45.593" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="41.402" y1="56.261" x2="43.307" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="38.1" y1="52.451" x2="50.927" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="37.973" y1="66.04" x2="50.8" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="38.1" y1="52.451" x2="50.927" y2="100.33" layer="22" rot="R180"/>
 <wire x1="43.307" y1="52.324" x2="43.307" y2="54.483" width="0" layer="20"/>
 <wire x1="45.593" y1="54.483" x2="45.593" y2="52.324" width="0" layer="20"/>
 <wire x1="43.1546" y1="92.075" x2="38.0746" y2="92.075" width="0" layer="20"/>
@@ -370,11 +344,9 @@
 <wire x1="58.3946" y1="65.871" x2="58.3946" y2="92.075" width="0" layer="20"/>
 <wire x1="55.8546" y1="65.871" x2="55.8546" y2="92.075" width="0" layer="20"/>
 <wire x1="63.627" y1="92.075" x2="58.3946" y2="92.075" width="0" layer="20"/>
-<text x="60.706" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="60.325" y1="56.261" x2="58.293" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="54.102" y1="56.261" x2="56.007" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="50.8" y1="52.451" x2="63.627" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="50.673" y1="66.04" x2="63.5" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="50.8" y1="52.451" x2="63.627" y2="100.33" layer="22" rot="R180"/>
 <wire x1="56.007" y1="52.324" x2="56.007" y2="54.483" width="0" layer="20"/>
 <wire x1="58.293" y1="54.483" x2="58.293" y2="52.324" width="0" layer="20"/>
 <wire x1="55.8546" y1="92.075" x2="50.7746" y2="92.075" width="0" layer="20"/>
@@ -387,11 +359,9 @@
 <wire x1="71.0946" y1="65.871" x2="71.0946" y2="92.075" width="0" layer="20"/>
 <wire x1="68.5546" y1="65.871" x2="68.5546" y2="92.075" width="0" layer="20"/>
 <wire x1="76.327" y1="92.075" x2="71.0946" y2="92.075" width="0" layer="20"/>
-<text x="73.406" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="73.025" y1="56.261" x2="70.993" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="66.802" y1="56.261" x2="68.707" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="63.5" y1="52.451" x2="76.327" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="63.373" y1="66.04" x2="76.2" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="63.5" y1="52.451" x2="76.327" y2="100.33" layer="22" rot="R180"/>
 <wire x1="68.707" y1="52.324" x2="68.707" y2="54.483" width="0" layer="20"/>
 <wire x1="70.993" y1="54.483" x2="70.993" y2="52.324" width="0" layer="20"/>
 <wire x1="68.5546" y1="92.075" x2="63.4746" y2="92.075" width="0" layer="20"/>
@@ -404,11 +374,9 @@
 <wire x1="83.7946" y1="65.871" x2="83.7946" y2="92.075" width="0" layer="20"/>
 <wire x1="81.2546" y1="65.871" x2="81.2546" y2="92.075" width="0" layer="20"/>
 <wire x1="88.9" y1="92.075" x2="83.7946" y2="92.075" width="0" layer="20"/>
-<text x="86.106" y="99.441" size="1.778" layer="1" font="vector" rot="SR180">GYR+</text>
 <wire x1="85.725" y1="56.261" x2="83.693" y2="54.483" width="0" layer="20" curve="-90"/>
 <wire x1="79.502" y1="56.261" x2="81.407" y2="54.483" width="0" layer="20" curve="90"/>
-<rectangle x1="76.2" y1="52.451" x2="89.027" y2="100.33" layer="52" rot="R180"/>
-<rectangle x1="76.073" y1="66.04" x2="88.9" y2="100.965" layer="51" rot="R180"/>
+<rectangle x1="76.2" y1="52.451" x2="89.027" y2="100.33" layer="22" rot="R180"/>
 <wire x1="81.407" y1="52.324" x2="81.407" y2="54.483" width="0" layer="20"/>
 <wire x1="83.693" y1="54.483" x2="83.693" y2="52.324" width="0" layer="20"/>
 <wire x1="81.2546" y1="92.075" x2="76.1746" y2="92.075" width="0" layer="20"/>
@@ -417,9 +385,23 @@
 <rectangle x1="9.652" y1="9.398" x2="10.922" y2="10.668" layer="1"/>
 <rectangle x1="9.652" y1="9.398" x2="10.922" y2="10.668" layer="31"/>
 <rectangle x1="9.652" y1="9.398" x2="10.922" y2="10.668" layer="29"/>
-<rectangle x1="12.7" y1="45.72" x2="88.9" y2="54.61" layer="51"/>
-<text x="92.71" y="12.065" size="2.54" layer="51" font="vector" rot="R90">Black soldermask / white silkscreen</text>
-<text x="92.71" y="89.535" size="1.6764" layer="51" font="vector" rot="R90">V1.0D</text>
+<rectangle x1="12.7" y1="45.72" x2="88.9" y2="54.61" layer="21"/>
+<text x="92.71" y="12.065" size="2.54" layer="21" font="vector" rot="R90">Black soldermask / white silkscreen</text>
+<text x="97.79" y="83.185" size="1.6764" layer="21" font="vector" rot="R90">2020-10</text>
+<text x="24.13" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="36.83" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="49.53" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="62.23" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="74.93" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="87.63" y="99.06" size="1.778" layer="21" font="vector" ratio="10" rot="SR180">G Y R +</text>
+<text x="13.97" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<text x="26.67" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<text x="39.37" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<text x="52.07" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<text x="64.77" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<text x="77.47" y="1.27" size="1.778" layer="21" font="vector" ratio="10" rot="SR0">G Y R +</text>
+<rectangle x1="12.7" y1="66.04" x2="88.9" y2="96.52" layer="21"/>
+<rectangle x1="12.7" y1="3.81" x2="88.9" y2="34.29" layer="21"/>
 </plain>
 <libraries>
 <library name="SPCoast">
@@ -708,185 +690,161 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="BOARD" x="0" y="0"/>
-<element name="GYR+" library="SPCoast" package="1X04_LOCK" value="0.100" x="22.86" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.621" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+" library="SPCoast" package="1X04_LOCK" value="0.100" x="22.86" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED1" library="SPCoast" package="0603-LED" value="R" x="19.23" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="19.23" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.15" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="14.15" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED2" library="SPCoast" package="0603-LED" value="Y" x="19.182" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="19.182" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.102" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="14.102" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED3" library="SPCoast" package="0603-LED" value="G" x="19.15" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="19.15" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.07" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="14.07" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+1" library="SPCoast" package="1X04_LOCK" value="0.100" x="35.56" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.321" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+1" library="SPCoast" package="1X04_LOCK" value="0.100" x="35.56" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED4" library="SPCoast" package="0603-LED" value="R" x="31.93" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="31.93" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.85" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="26.85" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED5" library="SPCoast" package="0603-LED" value="Y" x="31.882" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="31.882" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.802" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="26.802" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED6" library="SPCoast" package="0603-LED" value="G" x="31.85" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="31.85" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.77" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="26.77" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+2" library="SPCoast" package="1X04_LOCK" value="0.100" x="48.26" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.021" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+2" library="SPCoast" package="1X04_LOCK" value="0.100" x="48.26" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED7" library="SPCoast" package="0603-LED" value="R" x="44.63" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="44.63" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.55" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="39.55" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED8" library="SPCoast" package="0603-LED" value="Y" x="44.582" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="44.582" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.502" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="39.502" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED9" library="SPCoast" package="0603-LED" value="G" x="44.55" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="44.55" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.47" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="39.47" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+3" library="SPCoast" package="1X04_LOCK" value="0.100" x="60.96" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.721" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+3" library="SPCoast" package="1X04_LOCK" value="0.100" x="60.96" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED10" library="SPCoast" package="0603-LED" value="R" x="57.33" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="57.33" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52.25" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="52.25" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED11" library="SPCoast" package="0603-LED" value="Y" x="57.282" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="57.282" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52.202" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="52.202" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED12" library="SPCoast" package="0603-LED" value="G" x="57.25" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="57.25" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="52.17" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="52.17" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+4" library="SPCoast" package="1X04_LOCK" value="0.100" x="73.66" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.421" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+4" library="SPCoast" package="1X04_LOCK" value="0.100" x="73.66" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED13" library="SPCoast" package="0603-LED" value="R" x="70.03" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="70.03" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="64.95" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="64.95" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED14" library="SPCoast" package="0603-LED" value="Y" x="69.982" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="69.982" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="64.902" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="64.902" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED15" library="SPCoast" package="0603-LED" value="G" x="69.95" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="69.95" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="64.87" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="64.87" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+5" library="SPCoast" package="1X04_LOCK" value="0.100" x="86.36" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.121" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
-</element>
+<element name="GYR+5" library="SPCoast" package="1X04_LOCK" value="0.100" x="86.36" y="5.08" smashed="yes" rot="R180"/>
 <element name="LED16" library="SPCoast" package="0603-LED" value="R" x="82.73" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="82.73" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.65" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="77.65" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED17" library="SPCoast" package="0603-LED" value="Y" x="82.682" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="82.682" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.602" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="77.602" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED18" library="SPCoast" package="0603-LED" value="G" x="82.65" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="82.65" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.57" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="77.57" y="42.544" size="1.27" layer="21"/>
 </element>
-<element name="GYR+6" library="SPCoast" package="1X04_LOCK" value="0.100" x="15.494" y="95.123" smashed="yes">
-<attribute name="NAME" x="22.733" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+6" library="SPCoast" package="1X04_LOCK" value="0.100" x="15.494" y="95.123" smashed="yes"/>
 <element name="LED19" library="SPCoast" package="0603-LED" value="R" x="19.124" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="19.124" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="24.204" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="24.204" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED20" library="SPCoast" package="0603-LED" value="Y" x="19.172" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="19.172" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="24.252" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="24.252" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED21" library="SPCoast" package="0603-LED" value="G" x="19.204" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="19.204" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="24.284" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="24.284" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="GYR+7" library="SPCoast" package="1X04_LOCK" value="0.100" x="28.067" y="95.123" smashed="yes">
-<attribute name="NAME" x="35.306" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+7" library="SPCoast" package="1X04_LOCK" value="0.100" x="28.067" y="95.123" smashed="yes"/>
 <element name="LED22" library="SPCoast" package="0603-LED" value="R" x="31.697" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="31.697" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.777" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="36.777" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED23" library="SPCoast" package="0603-LED" value="Y" x="31.745" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="31.745" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.825" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="36.825" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED24" library="SPCoast" package="0603-LED" value="G" x="31.777" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="31.777" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="36.857" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="36.857" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="GYR+8" library="SPCoast" package="1X04_LOCK" value="0.100" x="40.767" y="95.123" smashed="yes">
-<attribute name="NAME" x="48.006" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+8" library="SPCoast" package="1X04_LOCK" value="0.100" x="40.767" y="95.123" smashed="yes"/>
 <element name="LED25" library="SPCoast" package="0603-LED" value="R" x="44.397" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="44.397" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="49.477" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="49.477" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED26" library="SPCoast" package="0603-LED" value="Y" x="44.445" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="44.445" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="49.525" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="49.525" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED27" library="SPCoast" package="0603-LED" value="G" x="44.477" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="44.477" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="49.557" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="49.557" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="GYR+9" library="SPCoast" package="1X04_LOCK" value="0.100" x="53.467" y="95.123" smashed="yes">
-<attribute name="NAME" x="60.706" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+9" library="SPCoast" package="1X04_LOCK" value="0.100" x="53.467" y="95.123" smashed="yes"/>
 <element name="LED28" library="SPCoast" package="0603-LED" value="R" x="57.097" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="57.097" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="62.177" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="62.177" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED29" library="SPCoast" package="0603-LED" value="Y" x="57.145" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="57.145" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="62.225" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="62.225" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED30" library="SPCoast" package="0603-LED" value="G" x="57.177" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="57.177" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="62.257" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="62.257" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="GYR+10" library="SPCoast" package="1X04_LOCK" value="0.100" x="66.167" y="95.123" smashed="yes">
-<attribute name="NAME" x="73.406" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+10" library="SPCoast" package="1X04_LOCK" value="0.100" x="66.167" y="95.123" smashed="yes"/>
 <element name="LED31" library="SPCoast" package="0603-LED" value="R" x="69.797" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="69.797" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="74.877" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="74.877" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED32" library="SPCoast" package="0603-LED" value="Y" x="69.845" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="69.845" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="74.925" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="74.925" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED33" library="SPCoast" package="0603-LED" value="G" x="69.877" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="69.877" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="74.957" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="74.957" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="GYR+11" library="SPCoast" package="1X04_LOCK" value="0.100" x="78.867" y="95.123" smashed="yes">
-<attribute name="NAME" x="86.106" y="99.441" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
-</element>
+<element name="GYR+11" library="SPCoast" package="1X04_LOCK" value="0.100" x="78.867" y="95.123" smashed="yes"/>
 <element name="LED34" library="SPCoast" package="0603-LED" value="R" x="82.497" y="62.104" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="82.497" y="62.104" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="87.577" y="62.739" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="87.577" y="62.739" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED35" library="SPCoast" package="0603-LED" value="Y" x="82.545" y="59.564" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="82.545" y="59.564" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="87.625" y="60.199" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="87.625" y="60.199" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="LED36" library="SPCoast" package="0603-LED" value="G" x="82.577" y="57.024" smashed="yes" rot="R180">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="82.577" y="57.024" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="87.657" y="57.659" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="87.657" y="57.659" size="1.27" layer="21" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -1288,8 +1246,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="BY6">
 <contactref element="LED20" pad="C"/>
-<contactref element="GYR+6" pad="3"/>
-<wire x1="20.574" y1="95.25" x2="19.558" y2="93.488" width="0.254" layer="16"/>
 <wire x1="19.558" y1="93.488" x2="19.558" y2="65.278" width="0.254" layer="16"/>
 <via x="21.178" y="59.633" extent="1-16" drill="0.7"/>
 <wire x1="21.178" y1="59.633" x2="19.674" y2="59.633" width="0.254" layer="1"/>
@@ -1337,8 +1293,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="BR7">
 <contactref element="LED22" pad="C"/>
-<contactref element="GYR+7" pad="2"/>
-<wire x1="30.607" y1="94.996" x2="31.115" y2="95.139" width="0.254" layer="16"/>
 <wire x1="31.115" y1="95.139" x2="31.115" y2="94.361" width="0.254" layer="16"/>
 <wire x1="31.115" y1="94.361" x2="31.623" y2="93.853" width="0.254" layer="16"/>
 <wire x1="31.623" y1="93.853" x2="31.623" y2="64.643" width="0.254" layer="16"/>

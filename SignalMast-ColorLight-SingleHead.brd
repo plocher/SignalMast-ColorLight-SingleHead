@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -164,17 +164,25 @@
 <wire x1="5.2324" y1="34.332" x2="5.2324" y2="8.128" width="0" layer="20"/>
 <wire x1="7.7724" y1="34.332" x2="7.7724" y2="8.128" width="0" layer="20"/>
 <wire x1="0" y1="8.128" x2="5.2324" y2="8.128" width="0" layer="20"/>
-<text x="2.921" y="0.762" size="1.778" layer="1" font="vector" rot="SR0">GYR+</text>
+<text x="1.651" y="0.762" size="1.778" layer="21" font="vector" rot="SR0">G</text>
 <wire x1="3.302" y1="43.942" x2="5.334" y2="45.72" width="0" layer="20" curve="-90"/>
 <wire x1="9.525" y1="43.942" x2="7.62" y2="45.72" width="0" layer="20" curve="90"/>
-<rectangle x1="0" y1="-0.127" x2="12.827" y2="47.752" layer="52"/>
-<rectangle x1="-0.127" y1="0" x2="12.7" y2="34.29" layer="51"/>
-<wire x1="7.62" y1="47.879" x2="7.62" y2="45.72" width="0" layer="20"/>
-<wire x1="5.334" y1="45.72" x2="5.334" y2="47.879" width="0" layer="20"/>
-<wire x1="7.7724" y1="8.128" x2="12.8524" y2="8.128" width="0" layer="20"/>
-<wire x1="0" y1="47.879" x2="5.334" y2="47.879" width="0" layer="20"/>
-<wire x1="7.62" y1="47.879" x2="12.954" y2="47.879" width="0" layer="20"/>
-<rectangle x1="5.334" y1="45.72" x2="7.62" y2="47.879" layer="51"/>
+<rectangle x1="0" y1="-0.127" x2="12.827" y2="47.752" layer="22"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="45.72" width="0" layer="20"/>
+<wire x1="5.334" y1="45.72" x2="5.334" y2="48.26" width="0" layer="20"/>
+<wire x1="7.7724" y1="8.128" x2="12.827" y2="8.128" width="0" layer="20"/>
+<wire x1="0" y1="48.26" x2="5.334" y2="48.26" width="0" layer="20"/>
+<wire x1="7.62" y1="48.26" x2="12.827" y2="48.26" width="0" layer="20"/>
+<rectangle x1="5.334" y1="45.72" x2="7.62" y2="48.26" layer="21"/>
+<text x="4.191" y="0.762" size="1.778" layer="21" font="vector" rot="SR0">Y</text>
+<text x="6.731" y="0.762" size="1.778" layer="21" font="vector" rot="SR0">R</text>
+<text x="9.271" y="0.762" size="2.1844" layer="21" font="vector" rot="SR0">+</text>
+<rectangle x1="5.2324" y1="8.128" x2="7.7724" y2="34.3408" layer="21"/>
+<rectangle x1="0" y1="3.556" x2="12.827" y2="8.128" layer="21"/>
+<wire x1="0" y1="48.26" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="12.827" y2="0" width="0" layer="20"/>
+<wire x1="12.827" y1="0" x2="12.827" y2="8.128" width="0" layer="20"/>
+<wire x1="12.827" y1="8.128" x2="12.827" y2="48.26" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SPCoast">
@@ -444,25 +452,25 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="GYR+" library="SPCoast" package="1X04_LOCK" value="0.100" x="10.16" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.921" y="0.762" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
+<element name="J" library="SPCoast" package="1X04_LOCK" value="0.100" x="10.16" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.651" y="9.652" size="1.778" layer="25" font="vector" ratio="11" rot="SR0"/>
 </element>
 <element name="LED1" library="SPCoast" package="0603-LED" value="R" x="6.53" y="38.099" smashed="yes">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T" x="6.53" y="38.099" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.45" y="37.464" size="1.27" layer="27"/>
+<attribute name="VALUE" x="1.45" y="37.464" size="1.27" layer="21"/>
 </element>
 <element name="LED2" library="SPCoast" package="0603-LED" value="Y" x="6.482" y="40.639" smashed="yes">
 <attribute name="OPL" value="19-217-Y5C-AM1N1VY-3T" x="6.482" y="40.639" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.402" y="40.004" size="1.27" layer="27"/>
+<attribute name="VALUE" x="1.402" y="40.004" size="1.27" layer="21"/>
 </element>
 <element name="LED3" library="SPCoast" package="0603-LED" value="G" x="6.45" y="43.179" smashed="yes">
 <attribute name="OPL" value="19-217-G7C-AN1P2-3T " x="6.45" y="43.179" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="1.37" y="42.544" size="1.27" layer="27"/>
+<attribute name="VALUE" x="1.37" y="42.544" size="1.27" layer="21"/>
 </element>
 </elements>
 <signals>
 <signal name="BV+">
-<contactref element="GYR+" pad="1"/>
+<contactref element="J" pad="1"/>
 <contactref element="LED1" pad="A"/>
 <contactref element="LED2" pad="A"/>
 <contactref element="LED3" pad="A"/>
@@ -471,56 +479,52 @@ design rules under a new name.</description>
 <wire x1="8.382" y1="6.858" x2="7.62" y2="6.858" width="0.254" layer="16"/>
 <wire x1="7.62" y1="6.858" x2="7.112" y2="7.366" width="0.254" layer="16"/>
 <wire x1="7.112" y1="7.366" x2="7.112" y2="36.195" width="0.254" layer="16"/>
-<wire x1="7.112" y1="36.195" x2="7.493" y2="36.576" width="0.254" layer="16"/>
-<via x="7.493" y="36.576" extent="1-16" drill="0.7"/>
+<wire x1="7.112" y1="36.195" x2="7.366" y2="36.576" width="0.254" layer="16"/>
+<via x="7.366" y="36.576" extent="1-16" drill="0.6"/>
 <wire x1="7.493" y1="37.907" x2="7.28" y2="38.099" width="0.254" layer="1"/>
 <wire x1="7.2" y1="43.179" x2="7.232" y2="40.639" width="0.254" layer="1"/>
 <wire x1="7.232" y1="40.639" x2="7.28" y2="38.099" width="0.254" layer="1"/>
-<wire x1="7.493" y1="36.576" x2="7.28" y2="36.789" width="0.254" layer="1"/>
+<wire x1="7.366" y1="36.576" x2="7.28" y2="36.789" width="0.254" layer="1"/>
 <wire x1="7.28" y1="36.789" x2="7.28" y2="38.099" width="0.254" layer="1"/>
 </signal>
 <signal name="BR">
 <contactref element="LED1" pad="C"/>
-<contactref element="GYR+" pad="2"/>
+<contactref element="J" pad="2"/>
 <wire x1="7.62" y1="5.207" x2="7.112" y2="5.064" width="0.254" layer="16"/>
 <wire x1="7.112" y1="5.064" x2="7.112" y2="5.842" width="0.254" layer="16"/>
 <wire x1="7.112" y1="5.842" x2="6.604" y2="6.35" width="0.254" layer="16"/>
 <wire x1="6.604" y1="6.35" x2="6.604" y2="35.56" width="0.254" layer="16"/>
-<via x="5.334" y="36.576" extent="1-16" drill="0.7"/>
-<wire x1="6.604" y1="35.56" x2="5.334" y2="36.576" width="0.254" layer="16"/>
+<via x="5.588" y="36.576" extent="1-16" drill="0.6"/>
+<wire x1="6.604" y1="35.56" x2="5.588" y2="36.576" width="0.254" layer="16"/>
 <wire x1="5.78" y1="38.099" x2="5.78" y2="37.022" width="0.254" layer="1"/>
-<wire x1="5.78" y1="37.022" x2="5.334" y2="36.576" width="0.254" layer="1"/>
+<wire x1="5.78" y1="37.022" x2="5.588" y2="36.576" width="0.254" layer="1"/>
 </signal>
 <signal name="BY">
 <contactref element="LED2" pad="C"/>
-<contactref element="GYR+" pad="3"/>
+<contactref element="J" pad="3"/>
 <wire x1="5.08" y1="4.953" x2="6.096" y2="6.715" width="0.254" layer="16"/>
-<wire x1="6.096" y1="6.715" x2="6.096" y2="34.925" width="0.254" layer="16"/>
-<via x="4.476" y="40.57" extent="1-16" drill="0.7"/>
-<wire x1="4.476" y1="40.57" x2="5.98" y2="40.57" width="0.254" layer="1"/>
+<wire x1="6.096" y1="6.715" x2="6.096" y2="34.036" width="0.254" layer="16"/>
+<via x="4.73" y="39.3" extent="1-16" drill="0.6"/>
+<wire x1="4.73" y1="39.3" x2="5.98" y2="40.57" width="0.254" layer="1"/>
 <wire x1="5.98" y1="40.57" x2="5.732" y2="40.639" width="0.254" layer="1"/>
-<wire x1="6.096" y1="34.925" x2="5.461" y2="35.56" width="0.254" layer="16"/>
-<wire x1="5.461" y1="35.56" x2="4.826" y2="35.56" width="0.254" layer="16"/>
-<wire x1="4.826" y1="35.56" x2="4.445" y2="36.068" width="0.254" layer="16"/>
-<wire x1="4.445" y1="36.068" x2="4.445" y2="40.005" width="0.254" layer="16"/>
-<wire x1="4.445" y1="40.005" x2="4.476" y2="40.57" width="0.254" layer="16"/>
+<wire x1="4.73" y1="39.3" x2="4.191" y2="38.761" width="0.254" layer="16"/>
+<wire x1="4.191" y1="38.761" x2="4.191" y2="35.941" width="0.254" layer="16"/>
+<wire x1="4.191" y1="35.941" x2="6.096" y2="34.036" width="0.254" layer="16"/>
 </signal>
 <signal name="BG">
 <contactref element="LED3" pad="C"/>
-<contactref element="GYR+" pad="4"/>
+<contactref element="J" pad="4"/>
 <wire x1="2.54" y1="5.207" x2="4.239" y2="6.985" width="0.254" layer="1"/>
 <wire x1="4.239" y1="6.985" x2="5.715" y2="6.985" width="0.254" layer="1"/>
 <wire x1="5.715" y1="6.985" x2="6.35" y2="7.572" width="0.254" layer="1"/>
-<wire x1="6.35" y1="7.572" x2="6.35" y2="34.925" width="0.254" layer="1"/>
-<wire x1="6.35" y1="34.925" x2="7.112" y2="35.56" width="0.254" layer="1"/>
-<wire x1="7.112" y1="35.56" x2="7.874" y2="35.56" width="0.254" layer="1"/>
-<wire x1="7.874" y1="35.56" x2="8.382" y2="36.068" width="0.254" layer="1"/>
-<wire x1="8.382" y1="36.068" x2="8.382" y2="44.069" width="0.254" layer="1"/>
+<wire x1="6.35" y1="7.572" x2="6.35" y2="33.925" width="0.254" layer="1"/>
+<wire x1="8.382" y1="35.957" x2="8.382" y2="44.069" width="0.254" layer="1"/>
 <wire x1="8.382" y1="44.069" x2="8.001" y2="44.45" width="0.254" layer="1"/>
 <wire x1="8.001" y1="44.45" x2="6.35" y2="44.45" width="0.254" layer="1"/>
 <wire x1="6.35" y1="44.45" x2="5.969" y2="44.069" width="0.254" layer="1"/>
 <wire x1="5.969" y1="44.069" x2="5.969" y2="43.091" width="0.254" layer="1"/>
 <wire x1="5.969" y1="43.091" x2="5.7" y2="43.179" width="0.254" layer="1"/>
+<wire x1="8.382" y1="35.957" x2="6.35" y2="33.925" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

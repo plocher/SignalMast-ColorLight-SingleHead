@@ -155,7 +155,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SPCoast">
 <packages>
@@ -1217,7 +1217,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
-<part name="GYR+" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
+<part name="J" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED" value="R">
 <attribute name="OPL" value="19-217-R6C-AL1M2VY-3T"/>
 </part>
@@ -1238,7 +1238,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instances>
 <instance part="FRAME1" gate="FRAME" x="0" y="0"/>
 <instance part="FRAME1" gate="FRAME_CONTENT" x="147.32" y="0"/>
-<instance part="GYR+" gate="J" x="116.84" y="78.74" rot="MR90"/>
+<instance part="J" gate="J" x="116.84" y="78.74" rot="MR90"/>
 <instance part="LED1" gate="LED" x="116.84" y="129.54">
 <attribute name="OPL" x="116.84" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1254,7 +1254,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <nets>
 <net name="BV+" class="0">
 <segment>
-<pinref part="GYR+" gate="J" pin="1"/>
+<pinref part="J" gate="J" pin="1"/>
 <wire x1="114.3" y1="83.82" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="LED" pin="A"/>
 <wire x1="114.3" y1="134.62" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
@@ -1269,14 +1269,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="BR" class="0">
 <segment>
 <pinref part="LED1" gate="LED" pin="C"/>
-<pinref part="GYR+" gate="J" pin="2"/>
+<pinref part="J" gate="J" pin="2"/>
 <wire x1="116.84" y1="127" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BY" class="0">
 <segment>
 <pinref part="LED2" gate="LED" pin="C"/>
-<pinref part="GYR+" gate="J" pin="3"/>
+<pinref part="J" gate="J" pin="3"/>
 <wire x1="124.46" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="127" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -1285,7 +1285,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="LED3" gate="LED" pin="C"/>
 <wire x1="132.08" y1="127" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="GYR+" gate="J" pin="4"/>
+<pinref part="J" gate="J" pin="4"/>
 <wire x1="132.08" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 </segment>
